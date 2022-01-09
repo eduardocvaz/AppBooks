@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome" />
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autor" />
+
+        <EditText
+            android:id="@+id/etAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gênero" />
+
+        <EditText
+            android:id="@+id/etGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Última página lida" />
+
+        <EditText
+            android:id="@+id/etLastPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Linha" />
+
+        <EditText
+            android:id="@+id/etLastLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionNext"
+            android:inputType="textCapWords" />
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar" />
+
+    </LinearLayout>
+</ScrollView>

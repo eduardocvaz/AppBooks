@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/activity_edit_livro.xml" value="0.25885416666666666" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/activity_livro.xml" value="0.27708333333333335" />
+        <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/activity_livro_detalhe.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/fragment_livro_detalhe.xml" value="0.33" />
+        <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/fragment_livro_dialog_add.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/fragment_livro_dialog_info.xml" value="0.27239583333333334" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/fragment_livro_lista.xml" value="0.27708333333333335" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/menu.xml" value="0.1" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/menu/menu.xml" value="0.1" />
