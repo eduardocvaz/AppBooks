@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppBooks">
         <activity
+            android:name=".AddLivroActivity"
+            android:exported="false" />
+        <activity
             android:name=".LivroActivity"
             android:exported="true">
             <intent-filter>
