@@ -13,6 +13,11 @@
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/fragment_livro_lista.xml" value="0.27708333333333335" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/layout/menu.xml" value="0.1" />
         <entry key="..\:/Users/Victor Bittencourt/AndroidStudioProjects/AppBooks/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_add_livro.xml" value="0.14" />
+        <entry key="app/src/main/res/layout/activity_livro.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_livro_lista.xml" value="0.1118659420289855" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.19583333333333333" />
+        <entry key="app/src/main/res/menu/menuVoltar.xml" value="0.25" />
       </map>
     </option>
   </component>
