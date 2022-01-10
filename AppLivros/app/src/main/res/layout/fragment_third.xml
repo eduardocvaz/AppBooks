@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.ThirdFragment">
+
+    <!-- Layout Vertical: Para ordenar as informações em linhas-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Nome do Livro -->
+        <TextView
+            android:id="@+id/nome_livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="book"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <!-- Gênero do Livro-->
+        <TextView
+            android:id="@+id/genero_livro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:text="gênero"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:id="@+id/tv_leitura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:gravity="center"
+            android:text="Última Leitura:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <!-- Layout Horizontal: Para os valores da página e da linha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- Página -->
+            <TextView
+                android:id="@+id/tv_pagina"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:text="Pág.: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <!-- Número da Página que o leitor parou (cadastrado) -->
+            <TextView
+                android:id="@+id/pag_livro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:text="n_pagina"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <!-- Linha -->
+            <TextView
+                android:id="@+id/tv_linha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:gravity="right"
+                android:text="Linha: "
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+            <!-- Número da Linha que o leitor parou de ler -->
+            <TextView
+                android:id="@+id/linha_livro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="left"
+                android:text="n_linha"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+
